@@ -5,14 +5,16 @@ This repository contains tools to classify neuron morphologies with respect to t
 These methods were compared with 2 other methods. One is classic, some morphometrics are computed from the reconstructed neurons. Then, the extracted features are used by a XGB to classify the neurons. The other method uses the graph of the reconstructed neurons and a GNN to classify them. 
 
 The experiments:
-    With TMD:
+
+With TMD:
 1) the vectorization methods are combined with Ml algoritmhs to classify neuron morphologies with respect to their TMD. 
 2) The Perslay model learns the vectorization and the classification, thus classify the TMD of the neuron morphologies.
-    Without TMD
-3) Features from reconstructed neurons are collected and a XGB is used to classify the neuron morphologies with respect to the selected morphometrics.
-4) A GNN classify the graph of the reconstructed neurons. 
 
-repository content:
+Without TMD
+4) Features from reconstructed neurons are collected and a XGB is used to classify the neuron morphologies with respect to the selected morphometrics.
+5) A GNN classify the graph of the reconstructed neurons. 
+
+Repository content:
 1) data:
     Contains the reconstructed PCs and INs, their pwds and a file of morphometrics config. [Link to reconstructed morpho](URL)
 2) experiments:
