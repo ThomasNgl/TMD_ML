@@ -7,7 +7,7 @@ These methods were compared with 2 other methods. One is classic, some morphomet
 The experiments:
 
 With TMD:
-1) the vectorization methods are combined with Ml algoritmhs to classify neuron morphologies with respect to their TMD. 
+1) the vectorization methods are combined with supervised Ml algorithms (e.g. random forest,  LDA ...) to classify neuron morphologies with respect to their TMD. (In the special case of persistence image vectorization the ouput is a 2D array thus can be provided to a CNN for classification).
 2) The Perslay model learns the vectorization and the classification, thus classify the TMD of the neuron morphologies.
 
 Without TMD:
@@ -33,7 +33,7 @@ Repository content:
     cocob.py contains a Pytorch implementation of the cocob optimizer (https://github.com/nocotan/cocob_backprop.git)
     Trainer.py contains a class Trainer for pytorch models.
 
-5) perslay_mdel:
+5) perslay_model:
     Contains a Pytorch version of the Perslay model. [Carriere, M., Chazal, F., Datashape, I. S., Ike, Y., Lacombe, T., Royer, M., & Umeda, Y. (2019). Perslay: A simple and versatile neural network layer for persistence diagrams. stat, 1050, 5.](https://github.com/MathieuCarriere/perslay.git)
     The authors provide an implementation of their model with tensorflow library.
 
