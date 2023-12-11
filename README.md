@@ -10,13 +10,13 @@ With TMD:
 1) the vectorization methods are combined with Ml algoritmhs to classify neuron morphologies with respect to their TMD. 
 2) The Perslay model learns the vectorization and the classification, thus classify the TMD of the neuron morphologies.
 
-Without TMD
-4) Features from reconstructed neurons are collected and a XGB is used to classify the neuron morphologies with respect to the selected morphometrics.
-5) A GNN classify the graph of the reconstructed neurons. 
+Without TMD:
+3) Features from reconstructed neurons are collected and a XGB is used to classify the neuron morphologies with respect to the selected morphometrics.
+4) A GNN classify the graph of the reconstructed neurons. 
 
 Repository content:
 1) data:
-    Contains the reconstructed PCs and INs, their pwds and a file of morphometrics config. [Link to reconstructed morpho](URL)
+    Contains the reconstructed PCs and INs, their pwds and a file of morphometrics config. TODO [Link to reconstructed morpho](URL)
 2) experiments:
     Contains the classification experiments for PCs and INs. The results are stored in the folder results.
     There are two ploting experiments and the resulting figures are stored in experiments.
