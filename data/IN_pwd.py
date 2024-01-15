@@ -1,5 +1,5 @@
 # Working directory path to IN m-types  
-path = '/Users/thomasnegrello/Documents/Lida/TMD_ML/data/'
+path = 'data/'
 cell_type = 'Reconstructed_INs/'
 
 pop_l1_dac_pwd = path + cell_type + 'L1/L1_DAC'
