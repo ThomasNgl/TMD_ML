@@ -89,7 +89,6 @@ def dist_clf_experiment(pwd_list, distance_method, clf, embedder = None, nb_spli
             
             X_dist_train = embedder.fit_transform(X_dist_scaled_train)
             X_dist_test = embedder.transform(X_dist_scaled_test)
-        print(y_train)
         #classification
         clf.fit(X_dist_train, y_train)
         train_score_list.append(clf.score(X_dist_train, y_train))
